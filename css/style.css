@@ -1,10 +1,4 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9756,9 +9750,62 @@ a.text-dark:hover, a.text-dark:focus {
   background: #FFFFFF;
   font-size: 30px;
 }
-
+#countdown {
+  text-align: center;
+  font-family: 'Arial, sans-serif';
+  color: #fff;
+}
+#freewill h2 {
+  color: var(--primary);
+  font-family: var(--font-family-monospace);
+}
+#timer {
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+#timer div {
+  padding: 10px;
+}
+.details h2 {
+  font-size: 15px;
+}
+#timer span {
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px #fff solid;
+  width: 60px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#freewill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 990.98px) {
+ 
+  #freewill {
+    flex-direction: column;
+  }
+  .details{
+    justify-content: center;
+    text-align: justify;
+  }
+}
 @media (max-width: 767.98px) {
   #event .border-right {
     border-right: none !important;
+  }
+  #freewill {
+    flex-direction: column;
+  }
+  #timer{
+    font-size: 1rem;
+  }
+  #timer span{
+    padding: 2px;
+    width: 30px;
   }
 }
