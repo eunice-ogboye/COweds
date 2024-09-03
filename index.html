@@ -30,7 +30,7 @@
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="font-secondary text-white mb-n2">Christiana <span class="text-primary">&</span> Oche</h1>
+            <h1 class="font-secondary text-white mb-n2">Christiana <span class="text-primary"> & </span> Oche</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -352,18 +352,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <form>
+                        <form  action="https://formcarry.com/s/5ftBVJentTe" method="POST" enctype="multipart/form-data">
                             <div class="form-row">
                                 <div class="form-group col-sm-6">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
+                                    <input type="text" name="fullname" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
                                 </div>
                                 <div class="form-group col-sm-6">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Email"/>
+                                    <input type="email" name="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Email"/>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
+                                    <select name="guest" class="form-control bg-secondary border-0" style="height: 52px;">
                                         <option>Number of Guest</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -380,7 +380,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message" required="required"></textarea>
+                                <textarea name="message" class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Enter your Message" required="required"></textarea>
                             </div>
                             <div>
                                 <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Submit</button>
